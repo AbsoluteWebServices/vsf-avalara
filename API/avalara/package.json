@@ -1,0 +1,11 @@
+{
+  "name": "@vue-storefront-api/avalara",
+  "version": "0.1.0",
+  "description": "The Avalara integration module.",
+  "main": "index.js",
+  "author": "Dmitry Kozachek <dmitryk@absoluteweb.com> and contributors",
+  "license": "MIT",
+  "dependencies": {
+    "avatax": "^19.9.2"
+  }
+}
