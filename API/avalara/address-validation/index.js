@@ -16,6 +16,8 @@ export default ({ config, db, client }) => {
 
     client.resolveAddress(address).then(result => {
       apiStatus(res, result, 200)
+    }).catch(err => {
+      apiStatus(res, err, 500)
     })
   })
 
