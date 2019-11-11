@@ -16,7 +16,7 @@
     "username": "__USERNAME__",
     "password": "__PASSWORD__",
     OR
-    "accoundId": "__ACCOUNT_ID__",
+    "accountId": "__ACCOUNT_ID__",
     "licenseKey": "__LICENSE_KEY__",
     OR
     "bearerToken": "__BEARER_TOKEN__"
