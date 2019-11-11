@@ -24,7 +24,13 @@ export const actions: ActionTree<AddressValidationState, RootState> = {
         mode: 'cors',
         body: JSON.stringify({ address: mappers.mapAddress(address) })
       }).then(res => {
-        resolve(res)
+        res.json().then(json => {
+          if (res.ok) {
+            resolve(json.result)
+          } else {
+            reject(json)
+          }
+        })
       }).catch(err => {
         reject(err)
       })
