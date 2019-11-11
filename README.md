@@ -1,7 +1,7 @@
 ```json
 "avalara": {
   "endpoint": {
-    "addressValidation": "/ext/avalara/addresses"
+    "addressValidation": "/api/ext/avalara/addresses"
   }
 }
 ```
